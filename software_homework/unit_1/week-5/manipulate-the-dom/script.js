@@ -48,14 +48,50 @@ pastRaces.appendChild(newPastRace) ;
 
   // Part 7
 
+  const parentBlog = document.querySelector(".main")
+
+  const newBlog = document.createElement("div")
+  newBlog.classList.add("blog-post") 
+  newBlog.classList.add("purple") 
+  
+  const heading = document.createElement("h2")
+  heading.textContent = "Khartoum"
+
+  const blogPost = document.createElement("p")
+  blogPost.textContent = "I visited my beautiful family"
+
+  parentBlog.appendChild(newBlog) 
+  newBlog.appendChild(heading) ; 
+  newBlog.appendChild(blogPost)
   
 
   // Part 8
+  
 
 
-  // Part 9
+  document.querySelector("#quote-title").addEventListener("click", randomQuote)
+
+  randomQuote = function() {
+    document.querySelector('#quote-of-the-day').innerText = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`;
+  };
+
+  // Part 9 
+  const blogPostsTotal = document.querySelectorAll(".blog-post");
 
 
+  blogPostsTotal.forEach(function(blog) {
+    // Mouseout handler to toggle the class .purple
+    blog.addEventListener("mouseout", function() {
+      blog.classList.toggle("purple");
+    });
 
+    // Mouseenter handler to toggle the class .red
+    blog.addEventListener("mouseenter", function() {
+      blog.classList.toggle("red");
+    });
+  });
 
 });
+
+
+//I have some issues with Part 9. The event handler isn't working as intended. 
