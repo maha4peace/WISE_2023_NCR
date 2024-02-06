@@ -1,0 +1,70 @@
+html {
+    border-left: 5px lightgray;
+}
+
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+    
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray ; 
+    padding-bottom: 2rem; 
+}
+
+p::first-letter {
+    color: lightgray ; 
+    font-size: 48px;
+}
+
+h1 {
+    color: tomato ; 
+}
+
+img {
+    width: 100%; 
+}
+
+.nav-header, .nav-footer, .continues {
+   padding: 0; 
+   list-style-type: none; 
+   display: flex ;
+   flex-direction: row ;
+   justify-content: space-between;
+}
+
+.nav-header > li a {
+    color: lightgray ; 
+}
+
+.nav-footer > li a {
+    color: tomato ; 
+    text-decoration: none;
+}
+
+.blog-title {
+    font-size: 5vw;
+}
+
+#blog-page-title {
+    font-size: 8vw;
+}
+
+.continues {
+    justify-content: end;
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+span {
+    color: lightgray ; 
+}
