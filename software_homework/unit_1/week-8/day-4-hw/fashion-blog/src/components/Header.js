@@ -1,10 +1,10 @@
 function Header() {
     return (
         <header>
-            <h1 id="blog-page-title">Sarte's List</h1>
-            <h2>Better-Dressed People</h2>
-            <nav>
-                <ul class= "nav-header"aria-label="Main Navigation" role="navigation">
+            <h1 style={{fontSize: '8vw'}} className="blog-title"> Sarte's List</h1>
+            <h2>Better-Dressed People</h2> 
+            <nav> 
+                <ul className= "nav-header" aria-label="Main Navigation" role="navigation">
                     <li>
                         <a href=""> Women's</a>
                     </li>

@@ -9,21 +9,49 @@
   
 }
 
+
 .App-articles  {
   margin-bottom: 4rem;
   border-bottom: 1px solid lightgray ; 
   padding-bottom: 2rem; 
 }
 
-.App-link {
-  color: #61dafb;
+.nav-header, .nav-footer, .continues {
+   padding: 0; 
+   list-style-type: none; 
+   display: flex ;
+   flex-direction: row ;
+   justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-footer > li a, .blog-title {
+  color: tomato ; 
+  text-decoration: none;
 }
+.blog-title {
+  font-size: 5vw;
+}
+.continues {
+  justify-content: end;
+  text-decoration: none;
+  color: tomato;
+  font-weight: bold;
+}
+
+
+p::first-letter {
+  color: lightgray ; 
+  font-size: 48px;
+}
+
+.nav-header > li a, span {
+  color: lightgray ; 
+}
+
+img {
+  width: 100% ; 
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+} 

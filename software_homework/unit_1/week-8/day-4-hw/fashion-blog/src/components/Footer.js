@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer> 
             <nav>
-                <ul class="nav-footer" aria-label="Main Navigation" role="navigation">
+                <ul className="nav-footer" aria-label="Main Navigation" role="navigation">
                     <li>
                         <a href="">Home</a>
                     </li>
