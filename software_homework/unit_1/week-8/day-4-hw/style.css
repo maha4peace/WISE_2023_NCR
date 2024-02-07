@@ -1,5 +1,5 @@
 html {
-    border-left: 5px lightgray;
+    border-left: 5px lightgray; 
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 header, main, footer {
     padding: 1rem 2rem;
     
-}
+} 
 
 article {
     margin-bottom: 4rem;

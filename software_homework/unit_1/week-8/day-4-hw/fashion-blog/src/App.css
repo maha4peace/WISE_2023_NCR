@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  border-left: 5px lightgray;
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem 2rem;
+  
+}
+
+.App-articles  {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray ; 
+  padding-bottom: 2rem; 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
