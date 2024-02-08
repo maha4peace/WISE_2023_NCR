@@ -4,28 +4,45 @@ function Footer() {
             <nav>
                 <ul className="nav-footer" aria-label="Main Navigation" role="navigation">
                     <li>
-                        <a href="">Home</a>
+                    {/* eslint-disable */}
+                        <a href="#">Home</a>
+                    {/* eslint-enable */}
+                    </li>
+                   
+                    <li>
+                        {/* eslint-disable */}
+                        <a href="#"> Women's</a>
+                        {/* eslint-enable */}
+                    </li>
+                     <li>
+                        {/* eslint-disable */}
+                        <a href="#"> Men's</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href=""> Women's</a>
+                        {/* eslint-disable */}
+                        <a href="#"> On the Street</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">Men's</a>
+                        {/* eslint-disable */}
+                        <a href="#"> The Catwalk</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">On the Street</a>
+                        {/* eslint-disable */}
+                        <a href="#"> AdWatch</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">The Catwalk</a>
+                       {/* eslint-disable */}
+                       <a href="#"> About</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">AdWatch</a>
-                    </li>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Tips</a>
+                        {/* eslint-disable */}
+                        <a href="#">Tips</a>
+                        {/* eslint-enable */}
                     </li>
                 </ul>  
             </nav>

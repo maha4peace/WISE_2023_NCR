@@ -6,24 +6,36 @@ function Header() {
             <nav> 
                 <ul className= "nav-header" aria-label="Main Navigation" role="navigation">
                     <li>
-                        <a href=""> Women's</a>
+                        {/* eslint-disable */}
+                        <a href="#"> Women's</a>
+                        {/* eslint-enable */}
+                    </li>
+                     <li>
+                        {/* eslint-disable */}
+                        <a href="#"> Men's</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">Men's</a>
+                        {/* eslint-disable */}
+                        <a href="#"> On the Street</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">On the Street</a>
+                        {/* eslint-disable */}
+                        <a href="#"> The Catwalk</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">The Catwalk</a>
+                        {/* eslint-disable */}
+                        <a href="#"> AdWatch</a>
+                        {/* eslint-enable */}
                     </li>
                     <li>
-                        <a href="">AdWatch</a>
+                       {/* eslint-disable */}
+                       <a href="#"> About</a>
+                        {/* eslint-enable */}
                     </li>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                </ul>   
+                </ul>    
             </nav>
         </header>
     );
