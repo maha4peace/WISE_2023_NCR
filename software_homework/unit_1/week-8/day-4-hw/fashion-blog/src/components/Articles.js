@@ -11,7 +11,7 @@ function Articles(){
                     <img src={brooklynImage} alt="on the street in brooklyn"/>
                     {/* eslint-disable */}
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente exercitationem quod facilis omnis est, possimus sequi laborum placeat a odio minima nostrum doloremque numquam assumenda alias quasi dolor consequuntur reprehenderit.</p>
-                    <button className='continues' href="#">Continues...</button>
+                    <a className='continues' href="#">Continues...</a>
                     {/* eslint-enable */}
                 </article>
                 <article className="App-articles">
@@ -19,7 +19,7 @@ function Articles(){
                     <h1 className="blog-title" >Vintage in Vogue</h1>
                     <img src={vintageVogue} alt="vintage in vogue"/>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti aliquid porro deserunt accusantium, aut sint incidunt illo neque mollitia necessitatibus corporis, ex voluptas quidem iusto corrupti, architecto fugiat ab doloribus.</p>
-                    <button className='continues' href="#">Continues...</button>
+                    <a className='continues' href="#">Continues...</a>
                 </article>
             </section>
         </main>
