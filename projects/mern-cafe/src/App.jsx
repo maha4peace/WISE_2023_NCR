@@ -4,6 +4,7 @@ import { useState } from 'react';
 import AuthPage from './pages/AuthPage';
 import OrderHistorypage from './pages/OrderHistoryPage';
 import NewOrderPage from './pages/NewOrderPage';
+import { Routes, Route} from 'react-router-dom'
 
 function App() {
 
@@ -12,7 +13,16 @@ function App() {
   return (
     <main>
       { user ? 
-          <NewOrderPage />
+          <Routes>
+              <Route
+                path = '/orders/new'
+                element={ <NewOrderPage/> }
+              />
+              <Route
+                path='/orders'
+                element={ <OrderHistorypage/> }
+              />
+          </Routes>
           :
           <AuthPage />
       }
