@@ -12,7 +12,7 @@ function App() {
   const [user, setUser] = useState({}) ; 
 
   return (
-    <main>
+    <main className='App'>
       { user ? 
       <>
           <Nav/> 
