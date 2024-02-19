@@ -1,15 +1,23 @@
-import { useState } from 'react';
+
 import './App.css';
+import { useState } from 'react';
+import AuthPage from './pages/AuthPage';
+import OrderHistorypage from './pages/OrderHistoryPage';
+import NewOrderPage from './pages/NewOrderPage';
 
 function App() {
 
   const [user, setUser] = useState(null) ; 
 
   return (
-    <div>
-
+    <main>
+      { user ? 
+          <NewOrderPage />
+          :
+          <AuthPage />
+      }
       
-    </div>
+    </main>
   );
 }
 
