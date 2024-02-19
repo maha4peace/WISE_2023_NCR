@@ -9,11 +9,13 @@ import { Routes, Route} from 'react-router-dom'
 
 function App() {
 
-  const [user, setUser] = useState(null) ; 
+  const [user, setUser] = useState(5) ; 
 
   return (
     <main>
       { user ? 
+      <>
+          <Nav/> 
           <Routes>
               <Route
                 path = '/orders/new'
@@ -24,6 +26,7 @@ function App() {
                 element={ <OrderHistorypage/> }
               />
           </Routes>
+      </>
           :
           <AuthPage />
       }
