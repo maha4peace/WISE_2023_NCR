@@ -9,7 +9,7 @@ import { Routes, Route} from 'react-router-dom'
 
 function App() {
 
-  const [user, setUser] = useState(5) ; 
+  const [user, setUser] = useState({}) ; 
 
   return (
     <main>
